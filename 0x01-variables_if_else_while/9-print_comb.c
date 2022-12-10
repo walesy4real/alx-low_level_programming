@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
- *
- *Return: Always 0
- */
+*main - Prints
+*Return: Always 0
+*/
 int main(void)
 {
 	int n;
@@ -20,3 +19,5 @@ int main(void)
 
 	putchar('\n');
 	return (0);
+	}
+}
