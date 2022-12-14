@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
- *main - Entry point
- *Return: Always 0 (Success)
+*_isalpha - Return 1 if d is a letter. lowercase or uppercase
+*@d: unsigned int value to be compared with ASCII value
+*Return: 1 if its alphabet otherwise 0
 */
+
 int _isalpha(int d)
 {
-	if (d >= 65 && c <= 122)
+	if (d >= 65 && d <= 122)
 		return (1);
 	else
 		return (0);
