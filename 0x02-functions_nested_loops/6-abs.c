@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * _abs - integer value
- *
- * return: Always 0 (success)
- *
+*_abs - computes the value of an integer
+*@n: The int to be operated upon
+*return: unsigneed int value to calling function
 */
 
 int _abs(int n)
