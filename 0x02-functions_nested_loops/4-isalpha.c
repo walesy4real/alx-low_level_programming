@@ -13,4 +13,3 @@ int _isalpha(int d)
 	else
 		return (0);
 }
-
