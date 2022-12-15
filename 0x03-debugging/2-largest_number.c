@@ -1,0 +1,28 @@
+#include "main.h"
+
+/**
+ * largest_num -returns the largest 3 numbers
+ * @x: first integer
+ * @y: second integer
+ * @z: third integer
+ * Return: largest num
+ */
+
+int largest_num(int x, int y, int z)
+{
+	int largest;
+
+	if (x >= y && x >= z)
+	{
+		largest = x;
+	}
+	else if (y >= x && y >= z)
+	{
+		largest = y;
+	}
+	else
+	{
+		largest = c;
+	}
+	return (largest);
+}
