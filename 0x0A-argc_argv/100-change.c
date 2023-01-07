@@ -1,7 +1,7 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 /**
-*" main - function
+ * mai n- function
  * @argc: length of argv
  * @argv: number of argument
  * Return: Always 0
